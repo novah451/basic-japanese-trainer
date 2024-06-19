@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #1A1A1A;
+    color: #FAF9F6;
+}
+
+button {
+    width: 25%;
+    background-color: #FAF9F6;
+    color: #1A1A1A;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #faf9f683;
+}
+
+input[type=submit] {
+    width: 25%;
+    background-color: #FAF9F6;
+    color: #1A1A1A;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #faf9f683;
+}
+
+.selector {
+    display: inline-block;
+}
+
+/* SAME AS GENERAL BUTTON STUFF BUT CAN BE DIFFERENT .. WHAT */
+.correct-option {
+    width: 36%;
+    background-color: #FAF9F6;
+    color: #1A1A1A;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.correct-option:hover {
+    background-color: #faf9f683;
+}
+
+.incorrect-option {
+    width: 36%;
+    background-color: #FAF9F6;
+    color: #1A1A1A;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.incorrect-option:hover {
+    background-color: #faf9f683;
+}
+
+.trainer-title {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+}
+
+.what-am-i-practicing {
+    text-align: center;
+}
+
+.given-question {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    /* border: 2px solid white; */
+}
+
+.question-letter {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+
+.next-block {
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* NO FOR USE */
+.grandfather-block {
+    border: 2px solid white;
+    text-align: center;
+}
+
+.parent-block {
+    /* display: flex; */
+    /* width: 900px; */
+    text-align: center;
+    /* border: 2px solid white; */
+}
+
+.child-button {
+    color: red;
+    font-size: 2px;
+    width: 36%;
+}
