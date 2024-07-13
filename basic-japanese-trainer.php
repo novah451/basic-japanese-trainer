@@ -16,7 +16,7 @@
     <title>Basic Japanese Trainer | Nebulotus</title>
 </head>
 <body>
-    <span>Basic Japanese Trainer</span>
+    <span id="trainer-title">Basic Japanese Trainer</span>
     <br><br>
     <nav id="practice">
         <button id="hira">Hiragana</button>
@@ -28,6 +28,6 @@
     <?php flashStart() ?>
     <br><br>
     <span id="loading2" hidden>Loading</span>
-    <span id="answer" hidden>Loading</span>
+    <span id="answer" hidden></span>
 </body>
 </html>

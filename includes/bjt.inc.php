@@ -35,7 +35,7 @@
 
     function flashStart() {
         print('<section id="flashstart">');
-
+        print('<span id="what-am-i-doing">');
         if (!isset($_SESSION["practice"]) || $_SESSION["practice"] == "Hiragana") {
             print('<span id="current">Identify the following Hiragana: </span>');
             $PATH = "data/hiragana.csv";
@@ -49,22 +49,24 @@
 
         $OUT = getFromCSV($PATH);
 
+        print('<span id="key">' . $OUT["key"] . '</span>');
+        print('</span>');
+
         print('
-            <span id="key">' . $OUT["key"] . '</span>
-        ');
-        print('<br><br>');
+            <br><br>'
+        );
         print('
             <section id="options">
-            <button>' . $OUT["option-1"] . '</button>
-            <button>' . $OUT["option-2"] . '</button>
-            <button>' . $OUT["option-3"] . '</button>
-            <button>' . $OUT["option-4"] . '</button>
+                <button>' . $OUT["option-1"] . '</button>
+                <button>' . $OUT["option-2"] . '</button>
+                <button>' . $OUT["option-3"] . '</button>
+                <button>' . $OUT["option-4"] . '</button>
             </section>
         ');
 
         print('
-            <br><br>
-            <button id="next">Next</button>
+                <br><br>
+                <button id="next">Next</button>
             </section>
         ');
     }

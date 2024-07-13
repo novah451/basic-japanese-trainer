@@ -1,9 +1,56 @@
 * {
     margin: 0px;
-    /* padding: 0px; */
+    padding: 0px;
 }
 
 body {
     background-color: #1A1A1A;
     color: #FAF9F6;
+}
+
+button {
+    width: 25%;
+    background-color: #FAF9F6;
+    color: #1A1A1A;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* font-size: 25px; */
+}
+
+button:hover {
+    background-color: #faf9f683;
+}
+
+#trainer-title{
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+#practice, #flashstart {
+    text-align: center;
+}
+
+#what-am-i-doing {
+    /* border: 2px solid white; */
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 40px;
+}
+
+#options {
+    /* border: 2px solid white; */
+    display: grid;
+    /* grid-template-columns: auto auto auto auto; */
+    /* grid-template-columns: 80px 200px auto 40px; */
+}
+
+#options button, #next {
+    place-self: center;
+    /* width: 40%; */
 }
